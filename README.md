@@ -15,13 +15,13 @@ Quiz 4:
     2. Incorrect
       ```
       function suvANDSedan(){
-  let Guests = Number(prompt('How many people will be attending?'));
-  let SUV = Number(prompt('How many suvs are there?'));
-  let Cars = guests;
-  let SUVneeded = MAth.ceil(cars/7);
-  let SUV2 = (SUVneeded) - (SUVneeded - SUV);
-  let Sedan = Math.ceil((Guests-(SUV2*7))/4);
-  alert(`You will require ${SUV2} suvs and ${Sedan} sedans`);
+      let x
+      let friends = prompt(How many friends would you like to invite to the movies?")
+      let numPar = prompt("How many of your friends' parents have SUVs?")
+      let suvCap = (numPar * 7)
+      let suvs = (friends - suvCap)
+      let sedans = Math.Ceil(suvs/4)
+      console.log(numPar + "parents who drive SUVs and" + sedans + "parents who drive sedans are required to transport" + friends " friends to the movies")
                            }   
       ```
 Quiz 5:
