@@ -21,7 +21,7 @@ Quiz 4:
     yCost = (tCost/4)
     console.log(typeof(yCost))
     console.log(typeof(favCol))
-    document.getElementbyID("off-to-college).innerHTML = (favCol + " is a pretty expensive school! It will cost you " + yCost + " per       year")
+    document.getElementbyID("off-to-college).innerHTML = (favCol + " is a pretty expensive school! It will cost you " + yCost + " per   year")
     }
     
     ```
@@ -34,7 +34,7 @@ Quiz 4:
       let suvCap = (numPar * 7)
       let suvs = (friends - suvCap)
       let sedans = Math.Ceil(suvs/4)
-      console.log(numPar + "parents who drive SUVs and" + sedans + "parents who drive sedans are required to transport" + friends "           friends to the movies")
+      console.log(numPar + "parents who drive SUVs and" + sedans + "parents who drive sedans are required to transport" + friends "    friends to the movies")
                            }   
       ```
 Quiz 5:
