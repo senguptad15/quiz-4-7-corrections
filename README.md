@@ -11,7 +11,20 @@ Quiz 4:
 9. Correct
 10. Correct
 11. Open Ended Questions:
-    1. Correct
+    1. Partially Correct
+    ```
+    funtion offToCollege(){
+    let favCol = prompt("Please enter the name of your favorite college")
+    let tCost = prompt("Please enter the approximate total cost of tuition")
+    let yCost
+    tCost = (Number(tcost)
+    yCost = (tCost/4)
+    console.log(typeof(yCost))
+    console.log(typeof(favCol))
+    document.getElementbyID("off-to-college).innerHTML = (favCol + " is a pretty expensive school! It will cost you " + yCost + " per       year")
+    }
+    
+    ```
     2. Incorrect
       ```
       function suvANDSedan(){
@@ -21,7 +34,7 @@ Quiz 4:
       let suvCap = (numPar * 7)
       let suvs = (friends - suvCap)
       let sedans = Math.Ceil(suvs/4)
-      console.log(numPar + "parents who drive SUVs and" + sedans + "parents who drive sedans are required to transport" + friends " friends to the movies")
+      console.log(numPar + "parents who drive SUVs and" + sedans + "parents who drive sedans are required to transport" + friends "           friends to the movies")
                            }   
       ```
 Quiz 5:
